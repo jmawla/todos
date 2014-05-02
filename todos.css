@@ -33,20 +33,25 @@ header {
 	height: 100%;
 	border-right: 3px double red;
 	display: inline-block;
+	text-align: center;
 }
 
 .boxInputItem{
-	width: 89%;
+	width: 86%;
 	height: 100%;
 	border: 1px solid black;
 	display: inline-block;
 	margin-left: -4px;
 	border-left: none;
+	padding-left: 3%;
+
 
 }
 
 .inputItem {
-	width: 100%;
+	width: 90%;
+	height: 80%;
+	margin-left: 3%;
 	border: none;
 }
 
