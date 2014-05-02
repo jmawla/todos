@@ -26,6 +26,12 @@ header {
 	height: 35px;
 	line-height: 200%;
 }
+/*#mainNav>li:first-child {
+	border-left: ridge;
+}*/
+#ulList>li:last-child {
+	border-bottom: 1px solid;
+}
 
 .boxChkItem{
 /*	border-top: 1px dotted #adadad;*/
@@ -64,15 +70,16 @@ header {
 /*	border: 1px solid;*/
 	width: 99%;
 	margin-left: 3px;
-	height: .25em;
-	background: #a0a0a0;
+	height: .17em;
+	background: #708090;
+	z-index: 50;
 }
 
 .statusBox {
 	width: 95%;
 	height: 0.5em;
 	padding: 8px 0px 18px 0px;
-	margin-left: 4px;
+	margin-left: 5.5px;
 	border: 1px solid gray;
 	background: #f0f0f0;
 	padding-left: 3%;
