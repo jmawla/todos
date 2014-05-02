@@ -1,0 +1,44 @@
+body {
+	background: #e0e0e0;
+}
+
+header {
+
+
+	background:
+}
+
+.allBoxes {
+	width: 50%;
+	margin-left: 25%;
+
+}
+.boxChkItem{
+	border: 1px solid black;
+	width: 10%;
+	height: 100%;
+	border-right: 3px double red;
+	display: inline-block;
+}
+
+.boxInputItem{
+	width: 89%;
+	height: 100%;
+	border: 1px solid black;
+	display: inline-block;
+	margin-left: -4px;
+	border-left: none;
+
+}
+
+.inputItem {
+	width: 100%;
+	border: none;
+}
+.dispItem{
+	background: white;
+	list-style-type: none;
+	border: 1px solid black;
+	padding: 8px;
+	height: 24px;
+}
