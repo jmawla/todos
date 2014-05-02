@@ -1,5 +1,5 @@
 body {
-	background: #e0e0e0;
+	background-image: url('squared_metal_@2X.png');
 }
 
 header {
@@ -63,9 +63,11 @@ header {
 }
 
 .statusBox {
-	width: 98%;
+	width: 95%;
 	height: 0.5em;
 	padding: 8px 0px 18px 0px;
 	margin-left: 4px;
 	border: 1px solid gray;
+	background: #e0e0e0;
+	padding-left: 3%;
 }
