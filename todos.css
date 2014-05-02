@@ -3,16 +3,28 @@ body {
 }
 
 header {
+	text-align: center;
+	color: gray;
+	font-family: Lucida Console;
+	font-size: 20px;
+	font-weight: 200%;
 
-
-	background:
 }
 
-.allBoxes {
+.firstBox {
 	width: 50%;
 	margin-left: 25%;
 
 }
+
+.dispItem{
+	background: white;
+	list-style-type: none;
+	border: 1px solid black;
+	padding: 8px;
+	height: 24px;
+}
+
 .boxChkItem{
 	border: 1px solid black;
 	width: 10%;
@@ -35,10 +47,11 @@ header {
 	width: 100%;
 	border: none;
 }
-.dispItem{
-	background: white;
-	list-style-type: none;
-	border: 1px solid black;
-	padding: 8px;
-	height: 24px;
+
+.listItems {
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
 }
+
