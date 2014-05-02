@@ -4,31 +4,31 @@ body {
 
 header {
 	text-align: center;
-	color: gray;
+	color: rgba(255, 255, 255, 0.3);
 	font-family: Lucida Console;
-	font-size: 20px;
-	font-weight: 200%;
+	font-size: 35px;
+	text-shadow: -1px -1px rgba(0, 0, 0, 0.5);
 
 }
 
 .firstBox {
 	width: 50%;
 	margin-left: 25%;
-	border-top: 10px solid black; 
+	border-top: 15px solid black; 
 
 }
 
 .dispItem{
 	background: white;
 	list-style-type: none;
-	border: .5px solid black;
+	border-bottom: 1px dotted #adadad;
 	padding: 0px;
 	height: 35px;
 	line-height: 200%;
 }
 
 .boxChkItem{
-	border: 1px solid black;
+/*	border-top: 1px dotted #adadad;*/
 	width: 10%;
 	height: 100%;
 	border-right: 3px double red;
@@ -39,13 +39,11 @@ header {
 .boxInputItem{
 	width: 86%;
 	height: 100%;
-	border: 1px solid black;
+	border: none;
 	display: inline-block;
 	margin-left: -4px;
 	border-left: none;
 	padding-left: 3%;
-
-
 }
 
 .inputItem {
@@ -62,12 +60,20 @@ header {
 	margin-bottom: 0px;
 }
 
+.bottomBox {
+/*	border: 1px solid;*/
+	width: 99%;
+	margin-left: 3px;
+	height: .25em;
+	background: #a0a0a0;
+}
+
 .statusBox {
 	width: 95%;
 	height: 0.5em;
 	padding: 8px 0px 18px 0px;
 	margin-left: 4px;
 	border: 1px solid gray;
-	background: #e0e0e0;
+	background: #f0f0f0;
 	padding-left: 3%;
 }
